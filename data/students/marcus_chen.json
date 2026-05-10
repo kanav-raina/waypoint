@@ -1,0 +1,173 @@
+{
+  "student": {
+    "name": "Marcus Daniel Chen",
+    "student_id": "marcus_chen",
+    "grade": 7,
+    "age": 13,
+    "disability": ["Specific Learning Disability"],
+    "school": "Riverstone Prep Public Charter School",
+    "primary_language": "English"
+  },
+  "iep_dates": {
+    "from": "2025-09-15",
+    "to": "2026-09-14"
+  },
+  "parent_concerns": "Marcus's parents are concerned that his frustration with reading is starting to affect his confidence in math and science, where the content is otherwise within his grasp. They want him to advocate for the audio versions of texts without feeling embarrassed in front of peers.",
+  "student_vision": {
+    "this_year": {
+      "ela": "I want to keep up with the class read-alouds and write essays I'm not afraid to turn in.",
+      "math": "I want word problems to stop tripping me up — the math part is fine.",
+      "science": "I want to read lab procedures without losing my place."
+    },
+    "long_term": [
+      "Get 3's in ELA and 4's in math and science (mastery+ on standards-based grading scale)",
+      "Use audio text and dictation independently without prompting",
+      "Take honors science in 8th grade"
+    ]
+  },
+  "present_levels": [
+    {
+      "area": "ela",
+      "current_grade_level": 4,
+      "subcategories": {
+        "decoding": 3,
+        "fluency": 3,
+        "vocabulary": 6,
+        "literature_comprehension": 6,
+        "informational_text_comprehension": 6
+      },
+      "summary": "Marcus has dyslexia. His decoding and fluency are at approximately a 3rd-grade level (DIBELS Fall 2025: 78 wcpm against a 7th-grade benchmark of 150 wcpm), but his comprehension is at or above grade level when he listens to a text or has it read aloud. On listening comprehension assessments, he scores 90%+; on independent reading comprehension of the same text, he scores ~45%. He decodes accurately at the word level but loses meaning across sentences because his cognitive load is consumed by decoding. He is comfortable using audiobooks and Read&Write text-to-speech and self-advocates for them in 1:1 settings, but he is reluctant to use them in front of peers. Spelling is consistently 2-3 grades below age peers; he benefits significantly from speech-to-text for written responses.",
+      "strengths": "Strong oral comprehension and oral expression. Articulate, uses sophisticated vocabulary in conversation. Excellent at synthesizing information once it's been delivered through audio. Asks clarifying questions readily in 1:1 or small group.",
+      "impact_of_disability": "Decoding bottleneck means reading independently produces comprehension scores well below his actual understanding. Without audio access, his performance on grade-level text is misleading — it measures decoding stamina, not comprehension."
+    },
+    {
+      "area": "math",
+      "current_grade_level": 7,
+      "summary": "Marcus is performing at grade level on grade-7 math content when problems are presented orally or with reduced text density. On word problems, his accuracy drops sharply (estimated 35-40%) — not due to math reasoning, but because dense problem text triggers the same decoding bottleneck. When word problems are read to him, his accuracy returns to 80%+.",
+      "strengths": "Strong number sense and procedural fluency. Quick to grasp multi-step reasoning when text is not the bottleneck.",
+      "impact_of_disability": "Word problem performance underrepresents his math ability. Math assessments without read-aloud accommodation produce invalid measurements of his content knowledge."
+    },
+    {
+      "area": "writing",
+      "current_grade_level": 5,
+      "summary": "Marcus's handwritten and typed writing is significantly below his oral expression. Spelling errors (transpositions, phonetic substitutions) occur on 25-30% of multisyllabic words. When he uses speech-to-text and then revises, his writing is at or above grade level. He is increasingly willing to use dictation independently.",
+      "strengths": "When dictating, produces grade-level claims, well-developed evidence, and analytical reasoning.",
+      "impact_of_disability": "Without dictation/spell-check tools, written output dramatically underrepresents his ideas and consumes disproportionate task time."
+    }
+  ],
+  "accommodations": {
+    "presentation": [
+      "Audio version of all texts (audiobook or text-to-speech)",
+      "Read-aloud of test items and word problems",
+      "Reduced visual density on printed materials (1.5 line spacing, sans-serif font)",
+      "Pre-teach domain vocabulary"
+    ],
+    "response": [
+      "Speech-to-text for extended writing (Read&Write or built-in OS dictation)",
+      "Spell-check enabled on all written work",
+      "Option to record oral responses in lieu of written for in-class informal checks"
+    ],
+    "timing": [
+      "Extra time (1.5x) on reading-heavy assessments",
+      "Untimed for spelling-graded work"
+    ],
+    "setting": [
+      "Headphones available at all times for audio access",
+      "Quiet check-in space available if peer self-consciousness arises"
+    ]
+  },
+  "modifications": {
+    "content": [],
+    "instruction": [
+      "Multimodal presentation (text + audio paired by default)",
+      "Pre-loaded vocabulary with audio pronunciation"
+    ],
+    "student_output": [
+      "Dictation accepted as equivalent to typed/handwritten output for content grading; spelling assessed separately on dictation-disabled tasks only"
+    ]
+  },
+  "goals": [
+    {
+      "goal_id": 1,
+      "area": "Reading Fluency",
+      "baseline": "DIBELS Fall 2025: 78 words correct per minute on a 7th-grade probe (benchmark 150). Decoding accuracy at the word level is 92%; running fluency drops to 78% accuracy across connected text due to fatigue.",
+      "annual_target": "Increase oral reading fluency on grade-level connected text from 78 wcpm to 110 wcpm with 90% accuracy.",
+      "measurement_criteria": "110 wcpm at 90% accuracy",
+      "method": "DIBELS / curriculum-based fluency probes",
+      "schedule": "End of the Quarter",
+      "person_responsible": "SE Reading Specialist",
+      "benchmarks": [
+        "Read grade-3 connected text at 110 wcpm with 95% accuracy.",
+        "Read grade-5 connected text at 100 wcpm with 92% accuracy.",
+        "Read grade-7 connected text at 110 wcpm with 90% accuracy."
+      ]
+    },
+    {
+      "goal_id": 2,
+      "area": "ELA — Comprehension via Audio Access",
+      "baseline": "When using audio access (text-to-speech or audiobook) on grade-level informational text, Marcus answers literal and inferential comprehension questions at 88% accuracy. When asked to silently read the same text and respond, accuracy drops to 45%. He is increasingly willing but inconsistently uses audio in front of peers.",
+      "annual_target": "Independently initiate audio access for all grade-level ELA texts (without teacher prompting) and answer literal and inferential comprehension questions at 80%+ accuracy.",
+      "measurement_criteria": "80% comprehension accuracy with self-initiated audio access in 4 out of 5 opportunities",
+      "method": "Work Samples, Curriculum Based Assessment Rubrics",
+      "schedule": "End of the Quarter",
+      "person_responsible": "SE Classroom Teacher",
+      "benchmarks": [
+        "When prompted, initiate audio access at the start of every assigned reading.",
+        "When given choice of audio or print, select audio for grade-level texts independently in 4 of 5 opportunities.",
+        "Self-advocate for audio access in front of peers without visible discomfort in 4 of 5 opportunities."
+      ]
+    },
+    {
+      "goal_id": 3,
+      "area": "Written Expression via Dictation",
+      "baseline": "Handwritten or typed writing on grade-level prompts averages 1.5 on the standards-based rubric (3 = mastery). When using speech-to-text and revising, writing averages 2.7. Marcus uses dictation independently in 1:1 settings about 60% of the time.",
+      "annual_target": "Use speech-to-text independently as a first-draft tool for all extended writing assignments (>3 sentences) and produce writing at 2.7+ on the rubric.",
+      "measurement_criteria": "Independent dictation use in 80% of extended writing tasks; 2.7+ rubric average",
+      "method": "Work Samples, Standards-Based Rubric",
+      "schedule": "End of the Quarter",
+      "person_responsible": "SE Classroom Teacher",
+      "benchmarks": [
+        "Use dictation for first drafts in 4 of 5 extended writing tasks across subjects.",
+        "Revise dictated drafts for spelling/punctuation independently using spell-check.",
+        "Submit a dictated final draft averaging 2.7+ on the SBG rubric."
+      ]
+    }
+  ],
+  "services": [
+    {
+      "goal_ids": [1],
+      "type_of_service": "Reading Fluency",
+      "provided_by": "SE Reading Specialist",
+      "location": "Resource Room",
+      "frequency": "3x per week",
+      "duration_minutes": 30,
+      "direct_or_consultation": "direct_other"
+    },
+    {
+      "goal_ids": [2, 3],
+      "type_of_service": "English Language Arts",
+      "provided_by": "Special Education Teacher",
+      "location": "General Education Classroom",
+      "frequency": "Daily",
+      "duration_minutes": 55,
+      "direct_or_consultation": "direct_in_general_ed"
+    },
+    {
+      "goal_ids": [2, 3],
+      "type_of_service": "Assistive Technology Consultation",
+      "provided_by": "AT Specialist",
+      "location": "General Education Classroom",
+      "frequency": "Monthly",
+      "duration_minutes": 30,
+      "direct_or_consultation": "consultation"
+    }
+  ],
+  "placement": "Full Inclusion Program (services outside general education classroom less than 21% of the time; 90% inclusion)",
+  "assessment_accommodations": [
+    "P1 Audio version of test (text-to-speech) for all reading-heavy items",
+    "P3 Read aloud of word problems and test directions",
+    "R7 Speech-to-text for constructed-response items",
+    "T1 Extended time (1.5x) on assessments containing >2 paragraphs of reading",
+    "SR1 Spell-check enabled on constructed-response items"
+  ]
+}
