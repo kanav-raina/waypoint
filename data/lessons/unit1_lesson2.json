@@ -1,0 +1,158 @@
+{
+  "lesson_id": "unit1_lesson2",
+  "title": "How Do Communities Build Belonging? — Reading 'The Welcome Table'",
+  "author": "Adapted from Alice Walker",
+  "text_type": "short_story",
+  "grade": 7,
+  "subject": "ELA",
+  "unit": "Unit 1: Community and Belonging",
+  "lesson_number": 2,
+  "skill_focus": "Analyzing how a literary author develops a theme through specific characters, setting, and events",
+  "standard": "RL.7.2",
+  "duration_minutes": 45,
+  "purpose": "To analyze how an author develops a theme of belonging (and exclusion) through narrative choices, building on the unit definition of community as a shared identity-forming narrative.",
+  "knowledge_focus": "Students apply Lowe's definition of community (Lesson 1) to a literary text. They examine how a community's shared narrative can include some members and exclude others, and how an author dramatizes this through a single character's experience.",
+  "vocabulary": ["congregation", "implicit", "rebuke", "reverence"],
+  "teacher_notes": [
+    "This lesson follows Unit 1 Lesson 1 directly. Reference the Lowe definition of community ('a group of people who share an identity-forming narrative') early and often.",
+    "Reading is intentionally short (~700 words) to allow time for a richer discussion phase.",
+    "Discussion Question D2 is the culminating exit ticket; ensure students hold their evidence sheets through that phase."
+  ],
+  "parts": [
+    {
+      "name": "intro",
+      "duration_minutes": 5,
+      "description": "Activate prior knowledge of Lowe's definition of community and pre-teach four vocabulary words.",
+      "modality": "whole_class",
+      "questions": [
+        {
+          "label": "I1",
+          "question_type": "think_share",
+          "optional": false,
+          "prompt": "In one sentence, restate Lowe's definition of community from yesterday's lesson.",
+          "sample_answer": "A community is a group of people who share an identity-forming narrative — a story that defines who they are."
+        }
+      ]
+    },
+    {
+      "name": "during_reading",
+      "duration_minutes": 18,
+      "description": "Students read the story in two segments: whole class for the opening (paragraphs 1-3) and partner reading for the body (paragraphs 4-9). Pause for During Reading Questions at three checkpoints.",
+      "modality": "mixed",
+      "paragraphs_covered": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "questions": [
+        {
+          "label": "1A",
+          "question_type": "find_evidence",
+          "optional": false,
+          "prompt": "Paragraphs 1-3: Highlight one detail that establishes the setting and one detail that establishes the protagonist's outsider status.",
+          "sample_answer": "Setting: 'the small church on the hill' (¶1). Outsider status: 'her shoes were caked with the red dust of the road' (¶3) — she has walked from outside the community."
+        },
+        {
+          "label": "1B",
+          "question_type": "write",
+          "optional": false,
+          "prompt": "Paragraphs 1-3: Using Lowe's definition, what 'shared narrative' does the church community appear to hold? Cite one detail.",
+          "sample_answer": "A narrative of a respectable, well-dressed Sunday congregation — their reverence is expressed through formal clothing and quiet behavior. Detail: 'the deacons in their black suits stood in a row.'"
+        },
+        {
+          "label": "2A",
+          "question_type": "turn_talk",
+          "optional": false,
+          "prompt": "Paragraphs 4-6: How do the congregation's implicit rules begin to clash with the protagonist's presence? Find one detail.",
+          "sample_answer": "She sits in the front pew, which appears reserved or unspoken-for; the deacons exchange glances. The community's narrative — who belongs in the front pews — does not include her."
+        },
+        {
+          "label": "2B",
+          "question_type": "write",
+          "optional": true,
+          "prompt": "Paragraphs 4-6: Why might the author have chosen not to have any character speak aloud in this section?",
+          "sample_answer": "The exclusion is enacted through glances, posture, and silence — the implicit rules of the shared narrative are powerful precisely because they don't need to be stated."
+        },
+        {
+          "label": "3A",
+          "question_type": "find_evidence",
+          "optional": false,
+          "prompt": "Paragraphs 7-9: Highlight the moment the rebuke occurs. What does the deacon do, and what does it tell us about the community's narrative?",
+          "sample_answer": "The deacon escorts her to the door without speaking; the rebuke is physical and silent. It tells us the community's narrative defines belonging by appearance and class, not by faith — even though faith is the stated purpose of the gathering."
+        },
+        {
+          "label": "3B",
+          "question_type": "write",
+          "optional": false,
+          "prompt": "Paragraphs 7-9: State the theme this passage develops in one sentence.",
+          "sample_answer": "A community's shared narrative can exclude the very people it claims to welcome, and the exclusion is often enacted through silence rather than words."
+        }
+      ]
+    },
+    {
+      "name": "independent_practice",
+      "duration_minutes": 15,
+      "description": "Students complete two MCQs and a short constructed response analyzing how the author develops the theme.",
+      "modality": "independent",
+      "questions": [
+        {
+          "label": "MCQ1",
+          "question_type": "mcq",
+          "optional": false,
+          "prompt": "Which best states the theme of the passage? [RL.7.2]",
+          "options": [
+            "A. A church should welcome everyone equally.",
+            "B. A community's shared narrative can exclude members it claims to welcome.",
+            "C. Travelers should not enter unfamiliar places of worship.",
+            "D. The deacons of the church are unfriendly people."
+          ]
+        },
+        {
+          "label": "MCQ2",
+          "question_type": "mcq",
+          "optional": false,
+          "prompt": "How does paragraph 5 contribute to the development of the theme? [RL.7.3]",
+          "options": [
+            "A. by describing the architecture of the church",
+            "B. by establishing the protagonist's history",
+            "C. by showing the implicit rules of the community through silent action",
+            "D. by introducing the deacon as the antagonist"
+          ]
+        }
+      ],
+      "short_response_prompt": "Using Lowe's definition of community as 'a group of people who share an identity-forming narrative,' explain how the church community in this story enforces its narrative. Cite at least two pieces of textual evidence and use at least one unit vocabulary word (congregation, implicit, rebuke, or reverence). [RL.7.2]",
+      "self_checklist": [
+        "Did I cite Lowe's definition?",
+        "Did I include at least two pieces of textual evidence with paragraph numbers?",
+        "Did I use at least one unit vocabulary word correctly?"
+      ]
+    },
+    {
+      "name": "discussion",
+      "duration_minutes": 7,
+      "description": "Students discuss two questions that connect the literary text back to the unit's central question about community.",
+      "modality": "partner",
+      "questions": [
+        {
+          "label": "D1",
+          "question_type": "turn_talk",
+          "optional": false,
+          "prompt": "How is the church community in this story similar to and different from the Newcastle community Lowe described in Lesson 1?"
+        },
+        {
+          "label": "D2",
+          "question_type": "turn_talk",
+          "optional": false,
+          "prompt": "Lowe says 'community is not, in itself, morally praiseworthy.' How does this story support that claim?"
+        }
+      ]
+    }
+  ],
+  "full_text_by_paragraph": {
+    "1": "The small church on the hill had stood for ninety-three years. Its white clapboards had been repainted by every generation, and its wooden pews bore the polish of three thousand Sundays. The road that led up to it was narrow, red with the dust of the county.",
+    "2": "On the Sunday in question, the congregation arrived as it always had: the deacons first, in their black suits and starched collars; the elder women in their hats; the families in their pressed Sunday clothes. The choir filed in. The organist played the prelude. Reverence settled over the room like the dust that settled on the windowsills.",
+    "3": "The old woman appeared at the door at five minutes past ten. Her dress was thin and faded. Her shoes were caked with the red dust of the road. She had walked, it was clear, from somewhere outside the bounds of the town.",
+    "4": "She entered. She did not pause at the back, where visitors often stood until shown to a seat. She walked, slowly and without hesitation, up the center aisle. The organist did not stop playing, but his eyes followed her. The choir's eyes followed her. The deacons' eyes followed her.",
+    "5": "She sat in the front pew. The pew was not, by any printed rule, reserved. But it had not held an unfamiliar body in any of the deacons' memories. The deacons exchanged a single glance. The elder women adjusted their hats. The organist, after a moment, found his place again.",
+    "6": "The service began. The first hymn was sung. The old woman did not sing, but she bowed her head, and her hands rested in her lap as the hands of the women around her rested. From the outside, looking through the glass, no one could have told her apart from the rest of the congregation.",
+    "7": "It was during the reading of the second scripture that the senior deacon rose. He walked, without hurry, to the front pew. He bent and spoke to her — a few words, very quiet, that no one in the congregation could hear. The old woman looked up at him. She did not speak. After a long moment, she stood.",
+    "8": "He walked her down the aisle, his hand at her elbow. He opened the door for her. She passed through it. He closed the door behind her. He returned to his seat. The reading of the second scripture continued.",
+    "9": "After the service, no one spoke of what had happened. The deacons greeted the families on the steps as they always did. The choir folded their robes. The organist locked the keyboard. The road that led down from the church was narrow, red with the dust of the county. By the time the last of the cars had pulled away, the old woman was no longer visible upon it."
+  }
+}

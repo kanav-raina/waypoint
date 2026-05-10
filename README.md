@@ -121,7 +121,11 @@ Founder & CEO: Isaac Goldstein studied CS at Stanford and is finishing is MBA at
 
 # Submission — Waypoint MCP Server
 
+> **Core insight:** an IEP is not a document to summarize — it's a constraint system describing how a specific student can and cannot engage with specific instructional tasks. The right unit of operation is the lesson task, not the IEP document. Every modification answers one question: *what does the teacher do differently so this student can complete this task tomorrow?*
+
 A Python MCP server that gives Claude the structured context it needs to differentiate a lesson for a student with an IEP, in minutes instead of hours. The teacher's UI is **Claude Desktop** — no separate web app, no API key required.
+
+**See it in action:** [`examples/jasmine_unit1_lesson1.md`](examples/jasmine_unit1_lesson1.md) — a full Differentiated Lesson Pack generated from the committed IEP and lesson, walking the teacher through 45 minutes of class with paragraph-grounded modifications and a printable materials checklist.
 
 ## What's built
 
@@ -131,11 +135,21 @@ core/
   data_loader.py   # Filesystem-based loaders (drop-in JSON = new student/lesson)
   prompts.py       # Differentiation system prompt + user prompt builders
 data/
-  students/jasmine_bailey.json    # Hand-authored from the source IEP PDF
-  lessons/unit1_lesson1.json      # Hand-authored from the Community lesson PDF
-server.py          # FastMCP server: 5 tools, 6 resources, 2 prompts
+  students/
+    jasmine_bailey.json     # 7th gr, Health Impairment, ELA grade 3, shutdown profile
+    marcus_chen.json        # 7th gr, SLD/Dyslexia, audio-access profile
+  lessons/
+    unit1_lesson1.json      # ELA RI.7.2 — Lowe, "What is community?"
+    unit1_lesson2.json      # ELA RL.7.2 — "The Welcome Table" (literary text)
+examples/
+  jasmine_unit1_lesson1.md  # Sample Differentiated Lesson Pack output
+tests/                      # pytest smoke + schema + prompt tests (27 tests)
+server.py                   # FastMCP server: 5 tools, 6 resources, 2 prompts
 requirements.txt
+requirements-dev.txt        # adds pytest
 ```
+
+The two-student / two-lesson set demonstrates the architecture across **different disability profiles** (avoidance/shutdown vs. decoding bottleneck) and **different text types** (informational vs. literary), which surface very different modification patterns from the same prompt.
 
 **MCP surface exposed to Claude:**
 
