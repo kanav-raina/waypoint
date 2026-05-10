@@ -121,6 +121,24 @@ Founder & CEO: Isaac Goldstein studied CS at Stanford and is finishing is MBA at
 
 # Submission — Waypoint MCP Server
 
+## What it is
+
+An MCP (Model Context Protocol) server that helps teachers differentiate a lesson for a student with an IEP (Individualized Education Program). Given a lesson + a student's IEP, it produces specific, actionable instructional modifications — not generic advice. The teacher's UI is Claude Desktop itself.
+
+## Tech stack
+
+- Python 3.10+
+- FastMCP (`mcp[cli]`) — MCP server framework
+- Pydantic — schema validation for IEP and lesson JSON
+- pytest — 27 tests covering schemas, prompts, and smoke tests
+- Hand-authored structured JSON for IEPs and lessons (no PDF parsing, no vector RAG, no fine-tuning)
+
+## MCP surface exposed to Claude
+
+- **5 tools:** `list_students`, `list_lessons`, `get_iep_section`, `get_lesson_part`, `differentiate_lesson`
+- **6 resources:** `students://list`, `lessons://list`, `iep://{id}`, `iep://{id}/{section}`, `lesson://{id}`, `lesson://{id}/{part}`
+- **2 prompts:** `/differentiate` and `/student_snapshot`
+
 > **Core insight:** an IEP is not a document to summarize — it's a constraint system describing how a specific student can and cannot engage with specific instructional tasks. The right unit of operation is the lesson task, not the IEP document. Every modification answers one question: *what does the teacher do differently so this student can complete this task tomorrow?*
 
 A Python MCP server that gives Claude the structured context it needs to differentiate a lesson for a student with an IEP, in minutes instead of hours. The teacher's UI is **Claude Desktop** — no separate web app, no API key required.
